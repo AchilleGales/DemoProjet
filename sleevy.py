@@ -1,3 +1,5 @@
+from function import analysis
+
 class Sleevy():
     def __init__(self,serial_number):
         self.serial_number=serial_number
@@ -45,3 +47,5 @@ class Interface(Sleevy) :
  
     def log_in(self) :
         print(f"To connect, please enter your {self.username} and your {self.password}")
+
+print(analysis(2))
